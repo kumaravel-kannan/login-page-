@@ -1,0 +1,501 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique&display=swap');
+*{
+    margin: 0;
+    left: 0;
+    right: 0;
+    font-family: "Zen Kaku Gothic Antique", serif;
+}
+header{
+    display: flex;
+}
+.left-side{
+    width: 30%;
+    height: 644.5px;
+    background-image: linear-gradient(to bottom,rgb(83,83,145),#15122f);
+}
+.right-side{
+    width: 70%;
+    background-color: #F9F9FA;
+}
+.logo-image{
+    width: 10%;
+    margin-left: 25%;
+    margin-top: 20%;
+}
+.left-side h3{
+font-size: 29.06px;
+font-weight: 900;
+line-height: 46.87px;
+text-align: center;
+margin-top: -12%;
+margin-left: 8%;
+color: #FFFFFF;
+}
+.hand-image{
+    width: 100%;
+    height: 80%;
+    margin-top: -30%;
+}
+.left-side h4{
+    font-size: 29px;
+    margin-left: 5%;
+    margin-top: -20%;
+    color: #FFFFFF;
+    text-align: center;
+}
+.left-side p{
+    font-size: 13px;
+    text-align: center;
+    line-height: 28px;
+    margin-top: 3%;
+    color: #BDBDBD;
+    font-weight: 400;
+    margin-left: 5%;
+}
+/* -----------------------------------------------left side end-------------------------------------------------- */
+.right-side{
+    background-color: #F9F9FA;
+}
+.right-side a{
+    position: relative;
+    top: 5%;
+    left: 5%;
+    text-decoration: none;
+    text-align: center;
+    color: #424242;
+    font-size: 15px;
+}
+.right-side i{
+    font-size: 15px;
+    padding-right: 10px;
+}
+.login{
+    margin-left: 65%;
+}
+.right-side h2{
+     margin-left: 5%;
+     margin-top: 10%;
+     text-align: center;
+     font-size: 20px;
+     color: #212121;
+     font-weight: 600;
+}
+.right-side h5{
+    text-align: center;
+    line-height: 28px;
+    color: #424242;
+    margin-left: 1%;
+    
+}
+/* ------------------------------------------------------right side login ----------------------------------------- */
+.first-form-filler{
+   
+    border:2px solid grey;
+    width:30vw;
+    margin-left: 30%;
+    margin-top: 5%;
+}
+.first-form-filler>input{
+    padding: 3%;
+    width: 50%;
+    outline:none;
+    border:none;
+}
+.first-form-filler>img{
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+.second-form-filler{
+   
+    border:2px solid grey;
+    width:30vw;
+    margin-left: 30%;
+    margin-top: 2%;
+}
+.second-form-filler>input{
+    padding: 3%;
+    width: 50%;
+    outline:none;
+    border:none;
+}
+.second-form-filler>img{
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+.third-form-filler{
+   
+    border:2px solid grey;
+    width:30vw;
+    margin-left: 30%;
+    margin-top: 2%;
+}
+.third-form-filler>input{
+    padding: 3%;
+    width: 50%;
+    outline:none;
+    border:none;
+}
+.third-form-filler>img{
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+.fourth-form-filler{
+    border: 2px solid #24243E;
+    width: 30vw;
+    margin-left: 30%;
+    margin-top: 2%;
+    background-color: #24243E;
+}
+.fourth-form-filler>a{
+    position: relative;
+    top: -13px;
+    color: white;
+    font-size: 16px;
+}
+.fourth-form-filler>a i{
+          margin-left: 50%;
+          font-size: 20px;
+          color: white;
+}
+.footer-section{
+    margin-top: 120px;
+    display: flex;
+}
+
+.footer-section .info{
+    font-size: 12px;
+    margin-left: 500px;
+}
+/* @media screen and (max-width: 576px){
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique&display=swap');
+*{
+    margin: 0;
+    left: 0;
+    right: 0;
+    font-family: "Zen Kaku Gothic Antique", serif;
+}
+header{
+    display: flex;
+}
+.left-side{
+    width: 80%;
+    height: 476px;
+    background-image: linear-gradient(to bottom,rgb(83,83,145),#15122f);
+}
+.right-side{
+    width: 60%;
+    background-color: #F9F9FA;
+}
+.logo-image{
+    width: 10%;
+    margin-left: 20%;
+    margin-top: 20%;
+}
+.left-side h3{
+    font-size: 20.06px;
+    font-weight: 900;
+    line-height: 46.87px;
+    text-align: center;
+    margin-top: -18%;
+    margin-left: 8%;
+    color: #FFFFFF;
+    }
+    .hand-image{
+        width: 100%;
+        height: 80%;
+        margin-top: -40%;
+    }
+    .left-side h4{
+        font-size: 19px;
+        margin-left: 5%;
+        margin-top: -20%;
+        color: #FFFFFF;
+        text-align: center;
+    }
+    .left-side p{
+        font-size: 10px;
+        text-align: center;
+        line-height: 18px;
+        margin-top: 3%;
+        color: #BDBDBD;
+        font-weight: 400;
+        margin-left: 3%;
+        width: 250px;
+    }
+    /* -----------------------------------------------left side end-------------------------------------------------- */
+    /* .right-side{
+        background-color: #F9F9FA;
+    }
+    .right-side a{
+        position: relative;
+        top: 2%;
+        left: 2%;
+        text-decoration: none;
+        text-align: center;
+        color: #424242;
+        font-size: 11px;
+    }
+    .right-side i{
+        font-size: 15px;
+        padding-right: 10px;
+    }
+    .login{
+        margin-left: 19%;
+    }
+    .right-side h2{
+        margin-left: 5%;
+        margin-top: 10%;
+        text-align: center;
+        font-size: 15px;
+        color: #212121;
+        font-weight: 600;
+   }
+   .right-side h5{
+       text-align: center;
+       line-height: 28px;
+       color: #424242;
+       margin-left: 1%;
+       font-size: 10px;
+       
+   }
+   ------------------------------------------------------right side login ----------------------------------------- 
+.first-form-filler{
+   
+    border:2px solid grey;
+    width:30vw;
+    position: relative;
+    margin-left: -100px;
+    margin-top: 5%;
+}
+.first-form-filler>input{
+    padding: 3%;
+    width: 50%;
+    outline:none;
+    border:none;
+}
+    
+} */
+/* @media screen and (max-width: 992px) {
+    .left-side, .right-side {
+        width: 100%;
+        text-align: center;
+        padding: 20px;
+    }
+    .left-side img.logo-image {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .right-side a {
+        display: block;
+        margin: 10px 0;
+    }
+    .right-side h2, .right-side h5 {
+        font-size: 1.5rem;
+    }
+    .right-side form {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .first-form-filler, .second-form-filler, .third-form-filler {
+        display: flex;
+        align-items: center;
+        margin: 10px 0;
+    }
+    .first-form-filler img, .second-form-filler img, .third-form-filler img {
+        width: 20px;
+        margin-right: 10px;
+    }
+    .first-form-filler input, .second-form-filler input, .third-form-filler input {
+        width: 100%;
+        padding: 10px;
+        font-size: 1rem;
+    }
+    .fourth-form-filler {
+        text-align: center;
+        margin: 20px 0;
+    }
+    .fourth-form-filler a {
+        font-size: 1.2rem;
+        padding: 10px 15px;
+    }
+    .footer-section {
+        padding: 20px;
+    }
+    .footer-section a {
+        display: block;
+        margin: 10px 0;
+        font-size: 1rem;
+    }
+} */
+/* @media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .left-side, .right-side {
+        width: 100%;
+        text-align: center;
+    }
+
+    .logo-image {
+        width: 40px;
+    }
+
+    .hand-image {
+        width: 80px;
+    }
+
+    .left-side h3 {
+        font-size: 18px;
+    }
+
+    .left-side h4 {
+        font-size: 16px;
+    }
+
+    .left-side p {
+        font-size: 12px;
+    }
+
+    .right-side a {
+        font-size: 12px;
+    }
+
+    .login {
+        font-size: 12px;
+    }
+
+    .right-side h2 {
+        font-size: 20px;
+    }
+
+    .right-side h5 {
+        font-size: 14px;
+    }
+
+    .first-form-filler, .second-form-filler, .third-form-filler {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .first-form-filler input, .second-form-filler input, .third-form-filler input {
+        width: 80%;
+    }
+    .fourth-form-filler a {
+        display: block;
+        text-align: center;
+        margin: 10px 0;
+    }
+    .footer-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .footer-section a {
+        margin: 5px 0;
+    }
+} */
+@media screen and (max-width: 576px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+    .left-side, .right-side {
+        width: 100%;
+        text-align: center;
+        position: relative;
+        top: -70px;
+    }
+    .logo-image {
+        width: 40px;
+        margin-right: 250px;
+        position: relative;
+        top: -13px;
+    }
+    .hand-image {
+        width: 500px;
+        height: 600px;
+    }
+    .left-side h3 {
+        font-size: 23px;
+    }
+    .left-side h4 {
+        font-size: 23px;
+    }
+    .left-side p {
+        font-size: 12px;
+    }
+    .right-side a {
+        font-size: 10px;
+        margin-right: 50px;
+    }
+    .login {
+        margin-left: 240px;
+    }
+    .right-side h2 {
+        font-size: 20px;
+    }
+    .right-side h5 {
+        font-size: 14px;
+    }
+    .first-form-filler {
+        flex-direction: column;
+         position: relative;
+         right: 100px;
+    }
+    .first-form-filler input {
+        width: 60%;
+    }
+    .first-form-filler img{
+        width: 15px;
+        margin-left: -30px;
+        margin-bottom: 5px;
+    }
+    .second-form-filler, .third-form-filler {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .second-form-filler img, .third-form-filler img {
+        margin-bottom: 5px;
+        width: 15px;
+    }
+
+    .second-form-filler input, .third-form-filler input {
+        width: 80%;
+    }
+    .fourth-form-filler a {
+        font-size: 10px;
+        text-align: center;
+        display: block;
+        margin: 20px 0;
+    }
+
+    footer {
+        padding: 10px 0;
+    }
+
+    .footer-section {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-section a {
+        font-size: 12px;
+    }
+
+    .footer-section .info {
+        margin-top: 10px;
+    }
+
+    .footer-section .info img {
+        width: 15px;
+    }
+}
